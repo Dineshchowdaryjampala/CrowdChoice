@@ -38,7 +38,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // Default route for API health check
 app.get("/", (req, res) => {
-    res.status(200).json({ message: "CrowdChoice API is running 🚀" });
+  res.status(200).json({ message: "CrowdChoice API is running 🚀" });
 });
 
 // Start server
