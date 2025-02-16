@@ -2,7 +2,7 @@
 
 CrowdChoice is a full-stack polling application that allows users to create, vote, bookmark, and manage polls. Below is the complete documentation of the project in markdown format.
 
-## Live Server:  
+## Live Server:  https://crowd-choice-dinesh-chowdary-jampala-s-projects.vercel.app/
 
 ## Table of Contents
 
@@ -189,3 +189,25 @@ CrowdChoice is a polling platform where users can create polls of various types 
     cd frontend
     cd polling-app
     npm run dev
+## Usage 
+- `Register/Login` : Use the `/register` and `/login` endpoints or the UI to create an account or log in.
+- `Create Polls`: Navigate to the "Create Poll" section to create new polls.
+- `Vote on Polls` : Browse polls on the dashboard and cast your vote.
+- `Bookmark Polls` : Save polls to your bookmarks for later viewing.
+- `View Stats` : Check your profile to see statistics like polls created, voted, and bookmarked.
+
+## Contributing
+
+- Fork the repository.
+- Clone your fork.
+- Create a new branch for your feature or bug fix.
+- Make changes and ensure they follow the project's coding standards.
+- Test your changes.
+- Submit a pull request.
+
+## License
+This project is licensed under the MIT License. 
+
+## Contributors 
+```
+CR SANNUTH and J DINESH CHOWDARY
