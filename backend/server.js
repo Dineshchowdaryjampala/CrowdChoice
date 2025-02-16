@@ -23,7 +23,7 @@ connectDB()
 app.use(express.json()); // JSON Parsing
 app.use(
     cors({
-        origin: process.env.CLIENT_URL || "*", // Allow frontend domain
+        origin: "*", // Allow frontend domain
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
     })
